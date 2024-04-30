@@ -1,0 +1,89 @@
+body {
+	     background-image: url("L4.jpg");
+	     background-color: #cccccc;
+	     
+    text-align: center;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+
+
+.container {
+     background-image: url("L1.jpg");
+     height: 370px;
+     width: 600px
+     font-family: Arial, sans-serif;
+    text-align: center;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    margin: 10px;
+    padding: 10px;
+    
+   }
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    color:rgb(22, 21, 21);
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #08090a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-image: url("L.jpg");
+    color: Black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-bottom: 5px solid black;
+    font-weight: bold;
+}
+
+li:last-child {
+    border-bottom: none;
+}
